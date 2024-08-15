@@ -27,4 +27,5 @@ print("After setting D=0, Clk=0:", latch.Q)  # Output should still be 1
 latch.D = 0
 latch.Clk = 1
 latch.update()
+
 print("After setting D=0, Clk=1:", latch.Q)  # Output should be 0
